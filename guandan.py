@@ -185,7 +185,7 @@ while(True):
 	x.add_row(list(cards.values()))
 	var.set(x)
 	win.update()
-	time.sleep(1)
+	time.sleep(0.3)
 
 #hmerge=numpy.hstack((up,left,down,right))
 #cv2.imshow("target",hmerge)
